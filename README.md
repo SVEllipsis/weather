@@ -3,7 +3,7 @@ Weather Station
 
 Taking this from: 
 
-[[http://trastle.github.io/rpi-weather/gettingInstalled.html]]
+http://trastle.github.io/rpi-weather/gettingInstalled.html
 
 ## Dependencies
 
