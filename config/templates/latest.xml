@@ -1,0 +1,13 @@
+<weather>
+        <temp_out>#temp_out "%.1f"#</temp_out>
+        <temp_in>#temp_in "%.1f"#</temp_in>
+        <temp_appr>#calc "apparent_temp(data['temp_out'], data['hum_out'], data['wind_ave'])" "%.1f"#</temp_appr>
+        <wind_ave>#wind_ave "%.0f" "" "wind_mph(x)"#</wind_ave>
+        <wind_gust>#wind_gust "%.0f" "" "wind_mph(x)"#</wind_gust>
+	<wind_dir>#wind_dir "%s" "" "winddir_text(x)"#</wind_dir>
+        <hum_out>#hum_out "%d"#</hum_out>
+        <hum_in>#hum_in "%d"#</hum_in>
+        <rain>#rain "%.1f"#</rain>
+        <rel_pressure>#rel_pressure "%.0f"#</rel_pressure>
+        <time>#idx "%A %H:%M %Z"#</time>
+</weather>
